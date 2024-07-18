@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Frijole&family=Kaushan+Script&family=Paytone+One&family=Red+Rose:wght@300..700&family=Rhodium+Libre&family=Righteous&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 70px;
+    background-color:  #B09464;
+}
+.logo-text {
+    position: relative;
+    top: 10px;
+    left: 24px;
+    font-family: 'Paytone One';
+    color: white;
+    font-weight: 50;
+}
+.logo-text span{
+    color: #FFEB9A;
+}
+.nav {
+   position: absolute;
+   top: 25px;
+   left: 500px;
+}
+.nav a {
+    font-size: larger;
+    font-weight: 400;
+    margin-right: 24px;
+    text-decoration: none;
+    padding: 24px 8px;
+    font-family: 'Abel', sans-serif;
+}
+.nav-home {
+  background-color: #FFE999;
+  color: black;
+}
+
+.nav-about {
+  /* background-color: #FFE999; */
+  color: white;
+}
+
+.nav-team {
+    /* background-color: #FFE999; */
+    color: white;
+}
+
+.nav-blog {
+    /* background-color: #FFE999; */
+    color: white;
+}
+
+.nav-contact {
+    /* background-color: #FFE999; */
+    color: white;
+}
